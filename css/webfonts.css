@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Mashup';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/Mashup.ttf) format("truetype"); }
+h1 {
+  font-family: 'Mashup';
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 42px;
+  letter-spacing: normal; }
+
+h2 {
+  font-size: 21px;
+  font-weigt: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 0 0 20px 0; }
+
+p {
+  font-family: 'Mashup';
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 21px; }
