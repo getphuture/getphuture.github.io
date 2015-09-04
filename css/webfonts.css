@@ -3,6 +3,9 @@
   font-style: normal;
   font-weight: 400;
   src: url(/Mashup.ttf) format("truetype"); }
+a {
+  text-decoration: none; }
+
 h1 {
   font-family: 'Mashup';
   font-weight: normal;
@@ -12,14 +15,93 @@ h1 {
 
 h2 {
   font-family: 'Mashup';
-  font-size: 24px;
+  font-size: 25px;
   font-weigt: normal;
   font-weight: 400;
   letter-spacing: normal;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  text-indent: -2px; }
 
 p {
   font-family: 'Mashup';
   font-weight: normal;
   font-weight: 400;
   font-size: 21px; }
+
+strong span {
+  font-weight: bold;
+  font-weight: 600; }
+
+.character, .blank, .group {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative; }
+
+.r-5 {
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg); }
+
+.r-4 {
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg); }
+
+.r-3 {
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg); }
+
+.r-2 {
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg); }
+
+.r-1 {
+  -moz-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+  transform: rotate(-1deg); }
+
+.r0 {
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg); }
+
+.r1 {
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  transform: rotate(1deg); }
+
+.r2 {
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg); }
+
+.r3 {
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg); }
+
+.r4 {
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg); }
+
+.r5 {
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg); }
+
+p .r-3, p .r-2 {
+  margin-top: -1px; }

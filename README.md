@@ -1,5 +1,5 @@
 #Design
-<pre style="font-size:12pt;font-family:'MS PGothic','ＭＳ Ｐゴシック','Trebuchet MS',Verdana,Futura,Arial,Helvetica,sans-serif;line-height:1"></pre>
+
 [Tom Watson](http://www.tmwtsn.com)'s personal page is my reference in layout.
 Perfectly straight to the point in both showing and writing.
 
