@@ -1,20 +1,22 @@
 @font-face {
-  font-family: 'Mashup';
+  font-family: 'mashupregular';
+  src: url("mashup.eot");
+  src: url("mashup.eot?#iefix") format("embedded-opentype"), url("mashup.woff2") format("woff2"), url("mashup.woff") format("woff"), url("mashup.ttf") format("truetype"), url("mashup.svg#mashupregular") format("svg");
   font-style: normal;
-  font-weight: 400;
-  src: url(/Mashup.ttf) format("truetype"); }
+  font-weight: normal;
+  font-weight: 400; }
 a {
   text-decoration: none; }
 
 h1 {
-  font-family: 'Mashup';
+  font-family: 'mashupregular';
   font-weight: normal;
   font-weight: 400;
   font-size: 42px;
   letter-spacing: normal; }
 
 h2 {
-  font-family: 'Mashup';
+  font-family: 'mashupregular';
   font-size: 25px;
   font-weigt: normal;
   font-weight: 400;
@@ -23,7 +25,7 @@ h2 {
   text-indent: -2px; }
 
 p {
-  font-family: 'Mashup';
+  font-family: 'mashupregular';
   font-weight: normal;
   font-weight: 400;
   font-size: 21px; }
@@ -32,10 +34,13 @@ strong span {
   font-weight: bold;
   font-weight: 600; }
 
-.character, .blank, .group {
+.character, .group {
   display: inline-block;
   vertical-align: middle;
   position: relative; }
+
+.blank {
+  display: none; }
 
 .r-5 {
   -moz-transform: rotate(-5deg);
@@ -105,3 +110,7 @@ strong span {
 
 p .r-3, p .r-2 {
   margin-top: -1px; }
+
+@media screen and (min-width: 768px) {
+  .hip-hop {
+    width: 515px; } }
