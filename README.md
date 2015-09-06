@@ -10,8 +10,10 @@ I love the light version. A dark version exists, some prefer the [Monokai varian
 
 Typography is a custom webfont mashup from the following fonts:
 
-* [Kalam](https://github.com/itfoundry/kalam), a handwriting-style typeface supporting the Devanagari and Latin scripts. This is an open source font family first published by the Indian Type Foundry in 2014
-* [Four Seasons Font (春夏秋冬)](http://www.freejapanesefont.com/four-seasons-font-download/),  a tidy, good looking handwriting style font written with pen. You can use this for any projects including commercial ones
+* [Kalam](https://github.com/itfoundry/kalam), a handwriting-style typeface supporting the Devanagari and Latin scripts.  
+This is an open source font family first published by the Indian Type Foundry in 2014
+* [Four Seasons Font (春夏秋冬)](http://www.freejapanesefont.com/four-seasons-font-download/),  a tidy, good looking handwriting style font written with pen.  
+Usable for any projects including commercial ones
 
 Social icons were created thanks to [Simple Icons](http://simpleicons.org/).  
 Distributed for free by Dan Leech under the Free Art License.
@@ -20,7 +22,9 @@ Distributed for free by Dan Leech under the Free Art License.
 
 Built using the followingz~:
 
-* An [Apple](http://www.apple.com/) computer, currently a non-Retina MacBook Pro (17-inch, Mid 2010) running Mac OS X 10.10.5 - 2,66 GHz Intel Core i7 - 8 Go 1067 MHz DDR3 - NVIDIA GeForce GT 330M 512 Mo - Custom SSD 249,98 Go
+* An [Apple](http://www.apple.com/) computer  
+A non-Retina MacBook Pro (17-inch, Mid 2010) Mac OS X 10.10.5 - 2,66 GHz Intel Core i7  
+8 Go 1067 MHz DDR3 - NVIDIA GeForce GT 330M 512 Mo - Custom SSD 249,98 Go
 * The features-proof text editor [Coda 2](https://panic.com/coda/) to handle code anywhere
 * Essential only mac app [Codekit](https://incident57.com/codekit/) to lively preview and compile code
 * Open-Source css framework [Compass](http://compass-style.org/) with predefined sass mixins
