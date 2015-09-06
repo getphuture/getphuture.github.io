@@ -1,7 +1,5 @@
 
-![](https://github.com/getphuture/getphuture.github.io/raw/master/images/totoro-1.png)
-
-#Design
+#Design ![](https://github.com/getphuture/getphuture.github.io/raw/master/images/totoro-1.png)
 
 [Tom Watson](http://www.tmwtsn.com)'s personal page is my reference in layout.  
 Perfectly straight to the point in both showing and writing.
@@ -18,9 +16,7 @@ Typography is a custom webfont mashup from the following fonts:
 Social icons were created thanks to [Simple Icons](http://simpleicons.org/).  
 Distributed for free by Dan Leech under the Free Art License.
 
-![](https://github.com/getphuture/getphuture.github.io/raw/master/images/totoro-2.png)
-
-#Tools
+#Tools ![](https://github.com/getphuture/getphuture.github.io/raw/master/images/totoro-2.png)
 
 Built using the followingz~:
 
