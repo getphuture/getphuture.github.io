@@ -12,7 +12,7 @@ h1 {
   font-family: 'mashupregular';
   font-weight: normal;
   font-weight: 400;
-  font-size: 42px;
+  font-size: 32px;
   letter-spacing: normal; }
 
 h2 {
@@ -34,13 +34,17 @@ strong span {
   font-weight: bold;
   font-weight: 600; }
 
-.character, .group {
+.character, .group, .word, .blank {
   display: inline-block;
   vertical-align: middle;
   position: relative; }
 
+.word {
+  white-space: nowrap; }
+
 .blank {
-  display: none; }
+  overflow: hidden;
+  width: 10px; }
 
 .r-5 {
   -moz-transform: rotate(-5deg);
@@ -112,5 +116,9 @@ p .r-3, p .r-2 {
   margin-top: -1px; }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 42px; }
+
   .hip-hop {
-    width: 515px; } }
+    padding-right: 36px;
+    width: 520px; } }
