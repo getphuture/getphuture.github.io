@@ -252,14 +252,15 @@ p {
   .row {
     display: block; }
 
+  s {
+    text-decoration: line-through; }
+    s span {
+      text-decoration: line-through; }
+
   .fossil .row span {
     background-color: #fdf6e3;
     -ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#FDF6E3) progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#FDF6E3)";
     filter: progid:DXImageTransform.Microsoft.Chroma(Color=#FDF6E3) progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#FDF6E3); }
-  .fossil s {
-    text-decoration: line-through; }
-    .fossil s span {
-      text-decoration: line-through; }
   .fossil a {
     position: relative; }
 
