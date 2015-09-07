@@ -97,6 +97,11 @@ p {
   line-height: 1.7;
   margin: 0 0 20px 0; }
 
+s {
+  text-decoration: line-through; }
+  s span {
+    text-decoration: line-through; }
+
 .si {
   background: #073642;
   background: rgba(7, 54, 66, 0.1); }
@@ -251,11 +256,6 @@ p {
 
   .row {
     display: block; }
-
-  s {
-    text-decoration: line-through; }
-    s span {
-      text-decoration: line-through; }
 
   .fossil .row span {
     background-color: #fdf6e3;
