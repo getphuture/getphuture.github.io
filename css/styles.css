@@ -106,26 +106,20 @@ s {
   background: #073642;
   background: rgba(7, 54, 66, 0.1); }
 
-.si-appdotnet:active, .si-appdotnet:hover {
-  background: #898d90; }
-
 .si-behance:active, .si-behance:hover {
   background: #1769ff; }
 
-.si-deviantart:active, .si-deviantart:hover {
-  background: #4b5d50; }
-
 .si-instagram:active, .si-instagram:hover {
   background: #3f729b; }
+
+.si-linkedin:active, .si-linkedin:hover {
+  background: #0077b5; }
 
 .si-pinterest:active, .si-pinterest:hover {
   background: #cb2027; }
 
 .si-twitter:active, .si-twitter:hover {
   background: #00aced; }
-
-.si-vimeo:active, .si-vimeo:hover {
-  background: #44bbff; }
 
 #footer ul, #footer li {
   display: block;
@@ -143,8 +137,8 @@ s {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   display: block;
-  height: 32px;
-  width: 32px; }
+  height: 48px;
+  width: 48px; }
   #footer a img, #footer a:link img {
     display: block;
     height: 100%;
@@ -159,8 +153,8 @@ s {
   fiter: none;
   background: none; }
 .fossil v\:roundrect {
-  height: 32px;
-  width: 32px; }
+  height: 48px;
+  width: 48px; }
 .fossil .bg {
   position: relative;
   top: -1px;
