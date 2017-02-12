@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Figure 2.5</title>
+	<link rel="stylesheet" href="style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  if ( /grenouille220\.github\.io/.test( window.location.host ) ) {
+    ga('create', 'UA-85044838-5', 'auto');
+    ga('send', 'pageview');
+  }
+
+</script>
+</head>
+<body>
+<div id="sketch"></div>
+<script src="svg.js"></script>
+<script>
+(function() {
+
+	var width = 500,
+		height = 300,
+		sketch = SVG('sketch').size(width, height);
+	sketch.rect(width, height).attr({ fill: 'rgb(230,230,230)' });
+	sketch.line(width/2 - 70, height/2 - 70, width/2 + 70, height/2 + 70).stroke({ color: 'rgb(130,0,0)', width: 4 });
+	sketch.line(width/2 + 70, height/2 - 70, width/2 - 70, height/2 + 70).stroke({ color: 'rgb(130,0,0)', width: 4 });
+	sketch.ellipse(50, 50).stroke({ color: 'rgb(130,0,0)', width: 4 }).attr({ fill: 'rgba(255,255,255,0.58)', cx: width/2, cy: height/2})
+})();
+</script>
+</body>
+</html>
